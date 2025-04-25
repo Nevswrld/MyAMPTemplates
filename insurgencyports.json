@@ -1,0 +1,16 @@
+[
+    {
+        "Protocol": "Both",
+        "Port": "27015",
+        "Name": "Main Game Port",
+        "Description": "Port used for main game traffic",
+        "Ref": "MainGamePort"
+    },
+    {
+        "Protocol": "TCP",
+        "Port": "2226",
+        "Name": "SFTP Port",
+        "Description": "Port used for main game traffic",
+        "Ref": "SFTPPort"
+    }
+]
