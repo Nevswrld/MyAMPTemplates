@@ -7,15 +7,6 @@
         "UpdateSourceArgs": "222880"
     },
     {
-        "UpdateStageName": "Server.cfg Template File Download",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/insurgencyserver.cfg",
-        "UpdateSourceArgs": "AMP_server.cfg",
-        "UpdateSourceTarget": "{{$FullRootDir}}",
-        "OverwriteExistingFiles": true
-    },
-    {
         "UpdateStageName": "Metamod Download",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
