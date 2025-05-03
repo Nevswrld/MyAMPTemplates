@@ -1,7 +1,8 @@
 [
     {
         "DisplayName": "Server Name",
-        "Category": "Server Settings",
+        "Category": "Vietnam:stadia_controller",
+        "Subcategory": "Server:dns:1",
         "Description": "The name displayed in the server browser.",
         "Keywords": "server,name",
         "FieldName": "hostname",
@@ -18,7 +19,7 @@
     },
     {
         "DisplayName": "Server Tags",
-        "Category": "Server Settings",
+        "Category": "Vietnam:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Comma-separated list of server tags that give additional information about the server in the server browser",
         "Keywords": "tags,sv_tags",
@@ -32,7 +33,8 @@
     },
     {
         "DisplayName": "Game Server Login Token",
-        "Category": "Server Settings",
+        "Category": "Vietnam:stadia_controller",
+        "Subcategory": "Server:dns:1",
         "Description": "Game Server Login Token (GSLT) - Obtained from Steam Game Server Account Management",
         "Keywords": "game,server,login,token",
         "FieldName": "sv_setsteamaccount",
@@ -49,7 +51,7 @@
     },
     {
         "DisplayName": "Server Password",
-        "Category": "Server Settings",
+        "Category": "Vietnam:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the password required to connect to the server. Default is no password",
         "Keywords": "server,password,sv_password",
@@ -62,7 +64,7 @@
     },
     {
         "DisplayName": "RCON Password",
-        "Category": "Server Settings",
+        "Category": "Vietnam:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "See the Security and Privacy menu for configurable options for the server's RCON",
         "Keywords": "rcon,password,rcon_password",
@@ -74,7 +76,7 @@
     },
     {
         "DisplayName": "Initial Game Mode",
-        "Category": "Server Settings",
+        "Category": "Vietnam:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the game mode (game_type, game_mode) to start the server with",
         "Keywords": "game,mode,gamemode,game_mode,game_type",
@@ -100,7 +102,7 @@
     },
     {
         "DisplayName": "Initial Map",
-        "Category": "Server Settings",
+        "Category": "Vietnam:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the map to start the server with. If \"Custom\" is selected, Custom Initial Map must also be specified",
         "Keywords": "map",
@@ -133,7 +135,7 @@
     },
     {
         "DisplayName": "Player Limit",
-        "Category": "Server Settings",
+        "Category": "Vietnam:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the maximum number of players allowed on the server at one time",
         "Keywords": "max,players,limit,maxplayers",
@@ -145,6 +147,66 @@
         "DefaultValue": "32",
         "Placeholder": "32",
         "Suffix": "players",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Enable Friendly Fire",
+        "Category": "Vietnam:stadia_controller",
+        "Subcategory": "Gameplay:joystick:2",
+        "Description": "If set, friendly fire will be enabled (teammates can cause damage to other teammates)",
+        "Keywords": "friendly,fire,mp_friendlyfire",
+        "FieldName": "mp_friendlyfire",
+        "InputType": "checkbox",
+        "ParamFieldName": "mp_friendlyfire",
+        "DefaultValue": "1",
+        "EnumValues": {
+            "False": "0",
+            "True": "1"
+        }
+    },
+    {
+        "DisplayName": "Enable Infinite Ammo",
+        "Category": "Vietnam:stadia_controller",
+        "Subcategory": "Gameplay:joystick:2",
+        "Description": "If set, infinite ammo will be enabled",
+        "Keywords": "infinite,ammo",
+        "FieldName": "sv_infinite_ammo",
+        "InputType": "checkbox",
+        "ParamFieldName": "sv_infinite_ammo",
+        "DefaultValue": "0",
+        "EnumValues": {
+            "False": "0",
+            "True": "1"
+        }
+    },
+    {
+        "DisplayName": "Gravity",
+        "Category": "Vietnam:stadia_controller",
+        "Subcategory": "Gameplay:joystick:2",
+        "Description": "Sets player gravity",
+        "Keywords": "gravity,sv_gravity",
+        "FieldName": "sv_gravity",
+        "InputType": "number",
+        "MinValue": "1",
+        "MaxValue": "800",
+        "ParamFieldName": "sv_gravity",
+        "DefaultValue": "800",
+        "Placeholder": "800",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Speed",
+        "Category": "Vietnam:stadia_controller",
+        "Subcategory": "Gameplay:joystick:2",
+        "Description": "Sets player speed",
+        "Keywords": "speed,sv_speed,sv_maxspeed",
+        "FieldName": "sv_maxspeed",
+        "InputType": "number",
+        "MinValue": "1",
+        "MaxValue": "800",
+        "ParamFieldName": "sv_maxspeed",
+        "DefaultValue": "500",
+        "Placeholder": "500",
         "EnumValues": {}
     }
 ]
