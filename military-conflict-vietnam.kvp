@@ -1,7 +1,7 @@
 Meta.DisplayName=Military Conflict: Vietnam
 Meta.Description=Military Conflict: Vietnam Dedicated Server
 Meta.Arch=x86_64
-Meta.Author=Nevswrld - Made with AMP Config Generator
+Meta.Author=Nevswrld
 Meta.URL=https://store.steampowered.com/app/1012110/Military_Conflict_Vietnam/
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=
@@ -68,7 +68,7 @@ Console.AppReadyRegex=^#Console\s+initialized\.$
 Console.UserJoinRegex=^Client\s+"(?<username>.+)"\s+connected\s+\((?<endpoint>.+)\)\.$
 Console.UserLeaveRegex=^Dropped\s+(?<username>.+)\s+from\s+server\s+\(Disconnected\.\)$
 Console.UserChatRegex=^(?<username>.+):\s+(?<message>.+)$
-Meta.OS=1
+Meta.OS=Windows, Linux
 Meta.ConfigManifest=military-conflict-vietnamconfig.json
 Meta.MetaConfigManifest=military-conflict-vietnammetaconfig.json
 Meta.ConfigRoot=military-conflict-vietnam.kvp

@@ -3,8 +3,8 @@
       "UpdateStageName": "Activate Metamod and SourceMod",
       "UpdateSourcePlatform": "All",
       "UpdateSource": "CreateFile",
-      "UpdateSourceData": "\"Plugin\"\n{\n\t\"file\"\t\"../insurgency/addons/metamod/bin/server\"\n}",
-      "UpdateSourceArgs": "{{$FullBaseDir}}insurgency/addons/metamod.vdf",
+      "UpdateSourceData": "\"Plugin\"\n{\n\t\"file\"\t\"../vietnam/addons/metamod/bin/server\"\n}",
+      "UpdateSourceArgs": "{{$FullBaseDir}}vietnam/addons/metamod.vdf",
       "OverwriteExistingFiles": true,
       "UpdateSourceConditionSetting": "InstallMod",
       "UpdateSourceConditionValue": "true"
@@ -14,7 +14,7 @@
       "UpdateSourcePlatform": "Windows",
       "UpdateSource": "Executable",
       "UpdateSourceData": "cmd.exe",
-      "UpdateSourceArgs": "/C cd insurgency\\237410\\insurgency\\addons > NUL 2>&1 && del /Q /F metamod.vdf > NUL 2>&1 & exit /b 0",
+      "UpdateSourceArgs": "/C cd military-conflict-vietnam\\1136190\\vietnam\\addons > NUL 2>&1 && del /Q /F metamod.vdf > NUL 2>&1 & exit /b 0",
       "UpdateSourceConditionSetting": "InstallMod",
       "UpdateSourceConditionValue": "false"
   },
@@ -23,7 +23,7 @@
       "UpdateSourcePlatform": "Linux",
       "UpdateSource": "Executable",
       "UpdateSourceData": "/bin/bash",
-      "UpdateSourceArgs": "-c \"cd insurgency/237410/insurgency/addons >/dev/null 2>&1 && rm -rf metamod.vdf >/dev/null 2>&1; exit 0\"",
+      "UpdateSourceArgs": "-c \"cd military-conflict-vietnam/1136190/vietnam/addons >/dev/null 2>&1 && rm -rf metamod.vdf >/dev/null 2>&1; exit 0\"",
       "UpdateSourceConditionSetting": "InstallMod",
       "UpdateSourceConditionValue": "false"
   }
