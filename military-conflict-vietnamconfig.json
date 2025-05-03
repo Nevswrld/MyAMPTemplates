@@ -110,7 +110,7 @@
         "InputType": "enum",
         "ParamFieldName": "map",
         "IncludeInCommandLine": true,
-        "DefaultValue": "mcv_temple",
+        "DefaultValue": "mcv_airbase",
         "EnumValues": {
             "mcv_airbase": "Airbase",
             "mcv_bunkerhill": "Bunkerhill",
