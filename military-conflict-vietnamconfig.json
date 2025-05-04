@@ -83,7 +83,7 @@
         "FieldName": "gamemode",
         "InputType": "enum",
         "ParamFieldName": "gamemode",
-        "DefaultValue": "+game_type 0 +game_mode 0",
+        "DefaultValue": "+game_type 0 +game_mode 1",
         "EnumValues": {
             "+game_type 0 +game_mode 0": "Team Deathmatch",
             "+game_type 0 +game_mode 1": "Zombies",
@@ -144,7 +144,7 @@
         "MinValue": "1",
         "MaxValue": "64",
         "ParamFieldName": "maxplayers",
-        "DefaultValue": "32",
+        "DefaultValue": "16",
         "Placeholder": "32",
         "Suffix": "players",
         "EnumValues": {}
