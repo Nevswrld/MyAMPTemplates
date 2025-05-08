@@ -150,6 +150,22 @@
         "EnumValues": {}
     },
     {
+        "DisplayName": "Player Limit (Override)",
+        "Category": "Vietnam:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Sets the maximum number of players allowed on the server at one time",
+        "Keywords": "max,players,limit,maxplayers",
+        "FieldName": "players",
+        "InputType": "number",
+        "MinValue": "1",
+        "MaxValue": "64",
+        "ParamFieldName": "maxplayers_override",
+        "DefaultValue": "12",
+        "Placeholder": "16",
+        "Suffix": "players",
+        "EnumValues": {}
+    },
+    {
         "DisplayName": "Allow Download From Server",
         "Category": "Vietnam:stadia_controller",
         "Subcategory": "Server:dns:1",
